@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    background-image:url(../assets/img/sky.jpg);
+    height: 100vh;
+    background-size: 100%;
+}
+.head{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    margin: auto;
+}
+h1{
+    color: #fff;
+}
+ul{
+    display: flex;
+    gap: 10px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff
+}
+.text{
+    height: calc(100vh - 129px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
